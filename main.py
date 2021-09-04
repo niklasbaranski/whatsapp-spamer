@@ -19,7 +19,6 @@ print("Your message will be sent in less than a minute.")
 #send message
 kit.sendwhatmsg(phone, message, e.hour, minute)
 #instant spam message
-query = 'yes'
-if query == 'yes':
+while True:
     auto.write(message)
     auto.press('enter')
